@@ -259,7 +259,6 @@ function toNumber(value, def) {
   if (Number.isNaN(rez)) {
     rez = def;
   }
-  // rez = Number(value);
   return rez;
 }
 
